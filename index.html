@@ -1,0 +1,1751 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adil Khan — Web Developer & Digital Architect | ZELLIGRID</title>
+    <meta
+      name="description"
+      content="ZELLIGRID is the freelance web studio of Adil Khan, a web developer and digital architect based in Hyderabad, building fast, expressive websites for businesses and creators."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ZELLIGRID" />
+    <meta property="og:title" content="Adil Khan — Web Developer & Digital Architect | ZELLIGRID" />
+    <meta
+      property="og:description"
+      content="ZELLIGRID is the freelance web studio of Adil Khan, a web developer and digital architect based in Hyderabad, building fast, expressive websites for businesses and creators."
+    />
+
+    <meta property="og:image" content="/assets/branding/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ZELLIGRID — Adil Khan, Web Developer and Digital Architect" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="/assets/branding/site.webmanifest" />
+    <link rel="icon" href="/assets/branding/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/assets/branding/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/branding/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0a0d1f" />
+    <script>
+      (function () {
+        document.documentElement.dataset.palette = "night";
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.content = "#0a0d1f";
+      })();
+    </script>
+    <script>
+      (function () {
+        const arrivalKey = "zelligrid:arrival";
+        try {
+          if (location.pathname === "/" && sessionStorage.getItem(arrivalKey)) {
+            document.documentElement.dataset.arrival = sessionStorage.getItem(arrivalKey);
+          }
+        } catch {}
+      })();
+    </script>
+    <link rel="preload" href="/assets/fonts/druk-condensed-super.woff2" as="font" type="font/woff2" crossorigin="" />
+    <link rel="preload" href="/assets/fonts/share-tech-mono.woff2" as="font" type="font/woff2" crossorigin="" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <section class="loader" data-loader="" aria-label="Loading">
+      <audio data-loader-chime="" src="/assets/media/chime.mp3" preload="auto"></audio>
+      <div class="loader__door">
+        <div class="loader__counter" aria-hidden="true">
+          <div class="loader__digits loader__digits--stroke">
+            <span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="0"> <span>0</span><span>1</span> </span>
+              </span> </span
+            ><span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="1">
+                  <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span
+                  ><span>7</span><span>8</span><span>9</span><span>0</span>
+                </span>
+              </span> </span
+            ><span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="2">
+                  <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span
+                  ><span>7</span><span>8</span><span>9</span><span>0</span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div class="loader__digits loader__digits--fill">
+            <span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="0"> <span>0</span><span>1</span> </span>
+              </span> </span
+            ><span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="1">
+                  <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span
+                  ><span>7</span><span>8</span><span>9</span><span>0</span>
+                </span>
+              </span> </span
+            ><span class="loader__col">
+              <span class="loader__cell">
+                <span class="loader__strip" data-loader-strip="2">
+                  <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span
+                  ><span>7</span><span>8</span><span>9</span><span>0</span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <span class="loader__clock">
+            <span class="text--caption text--split">
+              <span class="line"
+                ><span class="word"
+                  ><span class="char--letter"> <span data-loader-clock="">T+00.00</span> </span></span
+                ></span
+              >
+            </span>
+          </span>
+          <span class="loader__direction text--caption">
+            <span class="loader__arrow-mask"><span class="loader__arrow"></span></span>
+            <span data-loader-direction=""
+              ><span class="sr-only">Going up</span
+              ><span class="text--split text--split-copy" aria-hidden="true"
+                ><span class="line"
+                  ><span class="word"
+                    ><span class="char--letter" style="--char-delay: 0s"><span>G</span></span
+                    ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                    ><span class="char--letter" style="--char-delay: 0.03s"><span>i</span></span
+                    ><span class="char--letter" style="--char-delay: 0.045s"><span>n</span></span
+                    ><span class="char--letter" style="--char-delay: 0.06s"><span>g</span></span
+                    ><span class="char--space"><span> </span></span></span
+                  ><span class="word"
+                    ><span class="char--letter" style="--char-delay: 0s"><span>u</span></span
+                    ><span class="char--letter" style="--char-delay: 0.015s"><span>p</span></span></span
+                  ></span
+                ></span
+              ></span
+            >
+          </span>
+        </div>
+        <div class="loader__welcome">
+          <span class="sr-only">Hello.</span
+          ><span class="text--split" aria-hidden="true"
+            ><span class="line"
+              ><span class="word"
+                ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                ><span class="char--letter" style="--char-delay: 0.05s"><span>e</span></span
+                ><span class="char--letter" style="--char-delay: 0.1s"><span>l</span></span
+                ><span class="char--letter" style="--char-delay: 0.15s"><span>l</span></span
+                ><span class="char--letter" style="--char-delay: 0.2s"><span>o</span></span
+                ><span class="char--letter" style="--char-delay: 0.25s"><span>.</span></span></span
+              ></span
+            ></span
+          >
+        </div>
+        <div class="loader__bottom">
+          <div class="loader__row loader__status text--caption">
+            <span class="loader__slot">
+              <span class="loader__slot-loading text--split">
+                <span class="line"
+                  ><span class="word"
+                    ><span class="char--letter"> <span data-loader-status="">Loading</span> </span></span
+                  ></span
+                >
+              </span>
+              <span class="loader__slot-ready"
+                ><span class="sr-only">Sound on</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>u</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>n</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>d</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>o</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+            </span>
+            <span class="loader__centre">
+              <span class="loader__bar" aria-hidden="true"> <span class="loader__bar-fill"></span> </span>
+              <button type="button" class="loader__enter" data-loader-enter="" tabindex="-1">
+                <span class="sr-only">[Click to enter]</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>C</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>c</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>k</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>]</span></span></span
+                    ></span
+                  ></span
+                >
+              </button>
+            </span>
+            <span class="loader__slot">
+              <span class="text--split">
+                <span class="line"
+                  ><span class="word"
+                    ><span class="char--letter"> <span data-loader-count="">00/00</span> </span></span
+                  ></span
+                >
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cursor">
+      <div class="cursor__inner"><span></span></div>
+      <div class="cursor__outer"><span></span></div>
+      <div class="cursor__hover d-none">
+        <span> <img src="/assets/media/cursor.png" alt="cursor" /> </span>
+      </div>
+      <div class="cursor__visit d-none">
+        <span class="cursor__visit-inner">
+          <span class="cursor__visit-outer"></span> <span class="cursor__visit-text text--caption">visit</span>
+        </span>
+      </div>
+    </section>
+    <header id="main">
+      <div class="container-fluid header__inner">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-3 header__branding align-items-center d-flex">
+            <a href="/" class="text--caption header__logo" data-cursor-hover="">
+              <span class="header__logo-type">Zelligrid</span
+              ><span class="header__logo-cursor" aria-hidden="true">_</span>
+            </a>
+          </div>
+          <div class="col-6 col-md-8 col-lg-9 header__nav align-items-center justify-content-end d-flex">
+            <nav id="header">
+              <ul class="text--caption d-inline-flex align-items-center">
+                <li>
+                  <button type="button" data-pong-open="" data-cursor-hover="">
+                    <span class="sr-only">Bored?</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>d</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>?</span></span></span
+                        ></span
+                      ></span
+                    >
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="mute"
+                    data-audio-toggle=""
+                    data-cursor-hover=""
+                    aria-label="Mute sound"
+                    aria-pressed="false"
+                  >
+                    <span class="text--split" aria-hidden="true">
+                      <span class="char--letter" style="--char-delay: 0.1s">
+                        <span
+                          ><svg
+                            width="20px"
+                            height="20px"
+                            viewBox="0 0 20 20"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                          >
+                            <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g id="reel-icon-6133491-512" fill="#000000" fill-rule="nonzero">
+                                <path
+                                  d="M9.97999885,0.000153286309 C10.0364542,0.000470514578 10.0364542,0.000470514578 10.0940501,0.000620539424 C11.7182113,0.00737945346 13.2450254,0.379209162 14.6780124,1.1517696 C14.723235,1.17577106 14.723235,1.17577106 14.7693711,1.20025739 C17.0779951,2.43058482 18.7817122,4.57271603 19.5535507,7.06572493 C19.7500592,7.7334837 19.886785,8.41254405 19.9419747,9.10667655 C19.949647,9.20164516 19.9589169,9.2963666 19.9682484,9.39118414 C20.1656921,11.6501522 19.4307143,14.0342399 18.0864866,15.844791 C18.067945,15.8698443 18.0494035,15.8948976 18.0303,15.92071 C17.1647636,17.0813594 16.108988,17.9871391 14.8597977,18.7106125 C14.8174201,18.7355705 14.8174201,18.7355705 14.7741864,18.7610327 C13.9412973,19.2480675 13.0249115,19.5469136 12.0875721,19.7568648 C12.0283005,19.7712129 12.0283005,19.7712129 11.9678316,19.7858509 C10.6889776,20.0895168 9.18307801,20.0615817 7.9065104,19.7568648 C7.82764111,19.739638 7.74876091,19.7224612 7.66986998,19.705334 C6.52852908,19.4477395 5.41121482,18.974295 4.4525899,18.3012094 C4.40065841,18.2659316 4.34870228,18.2306901 4.29672321,18.1954825 C3.44482365,17.6107135 2.67163838,16.8905026 2.05642811,16.0592656 C2.00036518,15.9837854 1.94316624,15.9092995 1.88576031,15.8348402 C0.346430134,13.8002354 -0.242610629,11.0708373 0.0897429539,8.56651415 C0.343996606,6.80209896 1.05586764,5.12733645 2.18027378,3.74465573 C2.19952567,3.72070192 2.21877756,3.69674811 2.23861284,3.67206843 C3.6586414,1.91232879 5.64538718,0.696460554 7.84970249,0.205024997 C7.88938892,0.196152265 7.92907534,0.187279532 7.96996438,0.17813793 C8.63696565,0.0387329828 9.30048283,-0.00288798942 9.97999885,0.000153286309 Z M8.63277382,1.29370944 C8.61221811,1.39842603 8.61221811,1.39842603 8.61541228,1.51726284 C8.61502675,1.56338077 8.61464122,1.6094987 8.614244,1.65701414 C8.61452076,1.70757392 8.61479751,1.7581337 8.61508266,1.8102256 C8.61484308,1.86349748 8.6146035,1.91676937 8.61435665,1.97165556 C8.61386139,2.11778168 8.61397517,2.26389111 8.61440848,2.41001699 C8.61475443,2.56287625 8.61443367,2.7157344 8.61421896,2.86859371 C8.61397016,3.12530341 8.61429819,3.3820078 8.61494914,3.63871669 C8.61569323,3.93558587 8.61545222,4.23244236 8.61469943,4.52931123 C8.61407916,4.78411099 8.61399135,5.03890694 8.61434924,5.29370721 C8.61456249,5.44592596 8.61459054,5.59813876 8.61413917,5.75035713 C8.61379314,5.92002225 8.61431963,6.08966278 8.61508266,6.25932606 C8.6148059,6.30988584 8.61452914,6.36044562 8.614244,6.41253752 C8.61462953,6.45865545 8.61501507,6.50477337 8.61541228,6.55228881 C8.61546383,6.59241412 8.61551538,6.63253942 8.61556849,6.67388065 C8.6363981,6.79732027 8.66967478,6.83756663 8.76949644,6.91176287 C8.88150817,6.93237413 8.88150817,6.93237413 9.00876102,6.92935026 C9.05758061,6.9297787 9.10640019,6.93020714 9.15669916,6.93064857 C9.20939612,6.93037344 9.26209308,6.9300983 9.31638691,6.92981483 C9.39754727,6.93000989 9.39754727,6.93000989 9.48034724,6.93020889 C9.59481705,6.93030144 9.70928758,6.93005023 9.823756,6.92948299 C9.99930434,6.92875583 10.1748049,6.92947586 10.3503517,6.93034577 C10.4614389,6.93025595 10.5725261,6.93008181 10.6836131,6.92981483 C10.7626585,6.93022753 10.7626585,6.93022753 10.8433008,6.93064857 C10.8921204,6.93022013 10.94094,6.92979168 10.991239,6.92935026 C11.0342425,6.92924212 11.0772461,6.92913398 11.1215527,6.92902257 C11.2541966,6.90800948 11.286142,6.88050815 11.3672262,6.77584222 C11.3877819,6.67112562 11.3877819,6.67112562 11.3845877,6.55228881 C11.3849733,6.50617089 11.3853588,6.46005296 11.385756,6.41253752 C11.3854792,6.36197774 11.3852025,6.31141796 11.3849173,6.25932606 C11.3851569,6.20605417 11.3853965,6.15278228 11.3856433,6.0978961 C11.3861386,5.95176997 11.3860248,5.80566055 11.3855915,5.65953467 C11.3852456,5.50667541 11.3855663,5.35381726 11.385781,5.20095795 C11.3860298,4.94424825 11.3857018,4.68754386 11.3850509,4.43083497 C11.3843068,4.13396579 11.3845478,3.8371093 11.3853006,3.54024043 C11.3859208,3.28544066 11.3860087,3.03064472 11.3856508,2.77584445 C11.3854375,2.62362569 11.3854095,2.4714129 11.3858608,2.31919453 C11.3862069,2.14952941 11.3856804,1.97988888 11.3849173,1.8102256 C11.3851941,1.75966582 11.3854709,1.70910604 11.385756,1.65701414 C11.3851777,1.58783725 11.3851777,1.58783725 11.3845877,1.51726284 C11.3845362,1.47713754 11.3844846,1.43701223 11.3844315,1.39567101 C11.3636019,1.27223139 11.3303252,1.23198503 11.2305036,1.15778879 C11.1184918,1.13717753 11.1184918,1.13717753 10.991239,1.1402014 C10.9424194,1.13977296 10.8935998,1.13934451 10.8433008,1.13890309 C10.7906039,1.13917822 10.7379069,1.13945336 10.6836131,1.13973683 C10.6024527,1.13954177 10.6024527,1.13954177 10.5196528,1.13934277 C10.405183,1.13925022 10.2907124,1.13950143 10.176244,1.14006867 C10.0006957,1.14079583 9.82519514,1.1400758 9.64964829,1.13920589 C9.53856106,1.13929571 9.42747385,1.13946985 9.31638691,1.13973683 C9.23734148,1.13932413 9.23734148,1.13932413 9.15669916,1.13890309 C9.10787958,1.13933153 9.05905999,1.13975998 9.00876102,1.1402014 C8.94425571,1.14036361 8.94425571,1.14036361 8.87844727,1.14052909 C8.74580341,1.16154218 8.71385803,1.18904351 8.63277382,1.29370944 Z M9.75741027,7.70946148 C9.6372453,7.82850284 9.6039604,7.87769967 9.6039604,8.04504182 C9.66515127,8.18985315 9.717008,8.25783892 9.85005925,8.34333545 C9.97977597,8.37721333 9.97977597,8.37721333 10.1222156,8.32038978 C10.2603685,8.23729539 10.2603685,8.23729539 10.3248853,8.09666956 C10.358017,7.95272694 10.358017,7.95272694 10.2901419,7.82705801 C10.207276,7.71458464 10.207276,7.71458464 10.0672053,7.63201987 C9.883561,7.61575084 9.883561,7.61575084 9.75741027,7.70946148 Z M8.89927809,9.08018407 C8.65604205,9.47607092 8.54952841,9.84615345 8.6536725,10.3071676 C8.79715313,10.7443271 9.03720566,11.0167725 9.44480933,11.2291434 C9.78139422,11.3732874 10.178552,11.3674319 10.5199164,11.2421566 C10.9336576,11.0535949 11.1823302,10.7593804 11.3460117,10.3408593 C11.4244631,9.9295396 11.3991037,9.55624188 11.1688888,9.19783759 C10.9359393,8.8842072 10.6622083,8.66773571 10.2761036,8.57819572 C9.73390516,8.51638824 9.25863748,8.659326 8.89927809,9.08018407 Z M5.99667137,10.6624441 C5.95070565,10.6890388 5.90473994,10.7156334 5.85738132,10.743034 C5.71200322,10.8273078 5.56710788,10.9123707 5.42222628,10.997492 C5.33226416,11.0498388 5.24227083,11.1021322 5.1522442,11.1543683 C4.97150353,11.2593319 4.79094356,11.3645963 4.61050267,11.4700728 C4.322437,11.6382913 4.03350485,11.8049868 3.74439163,11.9714024 C3.69597714,11.9993184 3.64756266,12.0272343 3.59768107,12.0559962 C3.36526355,12.1899155 3.13263071,12.3234257 2.89929934,12.4557504 C2.79009685,12.5177171 2.68101756,12.579898 2.57194856,12.6420985 C2.49496887,12.6858798 2.417811,12.7293483 2.34064922,12.7728088 C2.293954,12.7994584 2.24725879,12.8261079 2.19914857,12.853565 C2.1375298,12.8884554 2.1375298,12.8884554 2.07466621,12.9240507 C1.95474312,13.0026036 1.86645038,13.0613695 1.78217822,13.1781427 C1.78614818,13.4071194 1.85160497,13.5667251 1.96702441,13.7616371 C1.99559581,13.8104745 2.02416721,13.8593119 2.05360441,13.9096292 C2.08415535,13.9605821 2.1147063,14.0115351 2.14618302,14.064032 C2.17749457,14.1169269 2.20876866,14.169844 2.2400058,14.2227827 C2.30158327,14.3269735 2.36347597,14.4309558 2.42554072,14.5348604 C2.4977622,14.656425 2.5686023,14.7785778 2.63851374,14.9014743 C2.67345993,14.9621121 2.70841395,15.0227454 2.74337841,15.0833726 C2.77258766,15.1343805 2.80179692,15.1853883 2.8318913,15.2379419 C2.93001752,15.3730038 2.98854825,15.440217 3.14719624,15.495084 C3.27042199,15.4594398 3.35527631,15.4208921 3.46570045,15.3587934 C3.52373404,15.3267744 3.52373404,15.3267744 3.58294003,15.2941085 C3.72385451,15.2148281 3.86356328,15.1336821 4.00317629,15.0521394 C4.08225171,15.0062702 4.16132728,14.9604013 4.24041247,14.9145489 C4.32227676,14.8670557 4.40409649,14.8194867 4.48590923,14.771905 C4.74166608,14.6232413 4.99807322,14.475702 5.25444282,14.3280952 C5.30369311,14.2997107 5.3529434,14.2713263 5.40368612,14.2420817 C5.66835668,14.0896179 5.93334306,13.9377327 6.19882467,13.7866814 C6.35306254,13.6989045 6.50715835,13.6108815 6.66120675,13.5227735 C6.75176844,13.4710038 6.84237511,13.4193126 6.93301064,13.3676719 C7.08462347,13.2811574 7.23597592,13.1942034 7.38728348,13.107158 C7.43491714,13.0800692 7.48255081,13.0529804 7.53162792,13.0250708 C7.57566908,12.9996291 7.61971024,12.9741874 7.66508598,12.9479747 C7.70427726,12.9255124 7.74346854,12.9030501 7.78384743,12.879907 C7.89113261,12.8152898 7.89113261,12.8152898 7.97029703,12.6784102 C7.97324133,12.3543654 7.79600437,12.1130058 7.63184921,11.8436299 C7.60324115,11.7957771 7.57463309,11.7479243 7.54515812,11.6986214 C7.48719428,11.6016785 7.42903874,11.5048495 7.37068731,11.4081386 C7.29532195,11.282677 7.22108419,11.1566635 7.14751664,11.030145 C7.12680843,10.994561 7.10610021,10.958977 7.08476447,10.9223148 C7.04654433,10.8565757 7.00836589,10.7908125 6.97023537,10.7250216 C6.9011334,10.6071655 6.83890648,10.5039116 6.74174371,10.4068991 C6.45281179,10.3513862 6.23498666,10.5212794 5.99667137,10.6624441 Z M13.0751399,10.6327421 C12.9652284,10.8085091 12.8668254,10.9900852 12.7682201,11.1723711 C12.4453422,11.7627764 12.4453422,11.7627764 12.3044658,11.9839449 C12.2850795,12.0144714 12.2656932,12.0449979 12.2457194,12.0764495 C12.1951589,12.1548026 12.143636,12.2325331 12.0920375,12.3102074 C12.0112959,12.4907961 12.0127342,12.5811183 12.0748088,12.7685371 C12.1723976,12.8509187 12.247959,12.9013389 12.3589938,12.9588274 C12.3892199,12.9756906 12.4194459,12.9925538 12.4505879,13.0099279 C12.5170239,13.0469437 12.5837142,13.0835061 12.6506164,13.1196732 C12.7971406,13.199456 12.941533,13.2827802 13.0861409,13.3659678 C13.2069607,13.4353957 13.3280518,13.5043311 13.4491983,13.573188 C13.8297754,13.7898107 14.2088327,14.0090662 14.5880695,14.2280208 C14.7955985,14.3478292 15.0033042,14.4673233 15.211145,14.5865901 C15.3147596,14.6461054 15.4183688,14.7056301 15.5219723,14.7651647 C15.5715517,14.79363 15.6211311,14.8220954 15.6722129,14.8514233 C15.971836,15.0240623 16.2675265,15.2009375 16.5572936,15.3896434 C16.6776096,15.4553017 16.756968,15.4920613 16.8945856,15.495084 C17.1537271,15.3589286 17.2665049,15.0809124 17.4004348,14.8333284 C17.4522285,14.7390915 17.5040935,14.6448937 17.5560261,14.5507332 C17.582021,14.5034606 17.6080159,14.456188 17.6347986,14.4074829 C17.7088608,14.2755781 17.7856664,14.1459672 17.8643667,14.0167844 C17.8877461,13.9780972 17.9111254,13.93941 17.9352132,13.8995504 C17.9793521,13.8269144 18.0240434,13.75461 18.0693573,13.6827003 C18.1610545,13.530196 18.212229,13.4361668 18.2178218,13.2558009 C18.1266519,13.030597 17.910826,12.927043 17.7046903,12.8141571 C17.6592908,12.7890856 17.6138912,12.7640142 17.567116,12.738183 C17.5186758,12.7116471 17.4702357,12.6851112 17.4203278,12.6577712 C17.044148,12.4495213 16.6702443,12.2384458 16.3006391,12.0187367 C16.2602326,11.994727 16.2198262,11.9707173 16.1781953,11.94598 C16.0956816,11.8969347 16.0131718,11.8478828 15.9306658,11.7988246 C15.311025,11.4316453 14.6873172,11.0713146 14.0611617,10.7153617 C14.0060855,10.6840425 14.0060855,10.6840425 13.9498967,10.6520906 C13.899178,10.6232811 13.899178,10.6232811 13.8474347,10.5938896 C13.7722543,10.5505458 13.6980643,10.5054916 13.6241497,10.4600252 C13.3765652,10.3169687 13.2340763,10.4312923 13.0751399,10.6327421 Z M7.9769769,10.7255525 C7.91031297,10.857891 7.91528292,10.9517089 7.93004429,11.0982273 C8.01944788,11.2198342 8.09136948,11.2728394 8.22923969,11.3340605 C8.36551659,11.3412033 8.36551659,11.3412033 8.50790206,11.2350688 C8.64430949,11.1106101 8.64430949,11.1106101 8.66336634,10.9555627 C8.62749563,10.7882214 8.58482573,10.7327178 8.44630301,10.6323838 C8.24402276,10.555161 8.14673074,10.5991819 7.9769769,10.7255525 Z M11.3928185,10.7255525 C11.3261546,10.857891 11.3311245,10.9517089 11.3458859,11.0982273 C11.4352895,11.2198342 11.5072111,11.2728394 11.6450813,11.3340605 C11.7813582,11.3412033 11.7813582,11.3412033 11.9237436,11.2350688 C12.0601511,11.1106101 12.0601511,11.1106101 12.0792079,10.9555627 C12.0433372,10.7882214 12.0006673,10.7327178 11.8621446,10.6323838 C11.6598643,10.555161 11.5625723,10.5991819 11.3928185,10.7255525 Z"
+                                  id="Shape"
+                                />
+                              </g>
+                            </g></svg
+                        ></span>
+                      </span>
+                    </span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="scrollbar"><div class="scrollbar__thumb"></div></div>
+    <main>
+      <section class="hero">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 hero__title" data-fit-text="">
+              <h1 class="text--heading-full">
+                <span class="sr-only">DIGITAL ARCHITECT</span
+                ><span class="text--split" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>D</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>G</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.25s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.3s"><span>L</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>C</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.25s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.3s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.35s"><span>C</span></span
+                      ><span class="char--letter" style="--char-delay: 0.4s"><span>T</span></span></span
+                    ></span
+                  ></span
+                >
+              </h1>
+              <div class="hero__subtitle d-inline-flex flex-column">
+                <p class="text--heading text--stroke text--flicker">
+                  <span class="sr-only">WEB DEVELOPER</span
+                  ><span class="text--split text--split-horizontal" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                        ><span class="char--letter" style="--char-delay: 0.05s"><span>E</span></span
+                        ><span class="char--letter" style="--char-delay: 0.1s"><span>B</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>D</span></span
+                        ><span class="char--letter" style="--char-delay: 0.05s"><span>E</span></span
+                        ><span class="char--letter" style="--char-delay: 0.1s"><span>V</span></span
+                        ><span class="char--letter" style="--char-delay: 0.15s"><span>E</span></span
+                        ><span class="char--letter" style="--char-delay: 0.2s"><span>L</span></span
+                        ><span class="char--letter" style="--char-delay: 0.25s"><span>O</span></span
+                        ><span class="char--letter" style="--char-delay: 0.3s"><span>P</span></span
+                        ><span class="char--letter" style="--char-delay: 0.35s"><span>E</span></span
+                        ><span class="char--letter" style="--char-delay: 0.4s"><span>R</span></span></span
+                      ></span
+                    ></span
+                  >
+                </p>
+              </div>
+              <div class="hero__lower">
+                <div class="hero__spec text--caption">
+                  <div class="hero__spec-name">
+                    <span class="sr-only">[ADIL KHAN]</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>A</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>D</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>I</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>L</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>K</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>H</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>A</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>N</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    >
+                  </div>
+                  <dl>
+                    <dt>
+                      <span class="sr-only">Role</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>R</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>l</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dt>
+                    <dd>
+                      <span class="sr-only">Web Developer</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>b</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>D</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>v</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>l</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>p</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.12s"><span>r</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dd>
+                    <dt>
+                      <span class="sr-only">Base</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dt>
+                    <dd>
+                      <span class="sr-only">Hyderabad, India</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>y</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>d</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.12s"><span>d</span></span
+                            ><span class="char--letter" style="--char-delay: 0.135s"><span>,</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>I</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>d</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>a</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dd>
+                    <dt>
+                      <span class="sr-only">Stack</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>S</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>c</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>k</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dt>
+                    <dd>
+                      <span class="sr-only">HTML / CSS / JS / WebGL</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>T</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>M</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>L</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>/</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>C</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>S</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>S</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>/</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>J</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>S</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>/</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>G</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>L</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dd>
+                    <dt>
+                      <span class="sr-only">For</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>F</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dt>
+                    <dd>
+                      <span class="sr-only">Businesses &amp; creators</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>u</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>n</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.12s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.135s"><span>s</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>&amp;</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>c</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>s</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </dd>
+                  </dl>
+                </div>
+                <div class="hero__badge">
+                  <div class="hero__badge-inner">
+                    <div class="zelli-badge">
+                      <svg class="zelli-badge__orbit" viewBox="0 0 300 300" aria-hidden="true">
+                        <defs>
+                          <path id="zelli-orbit" d="M150,150 m-116,0 a116,116 0 1,1 232,0 a116,116 0 1,1 -232,0" />
+                        </defs>
+                        <text>
+                          <textpath href="#zelli-orbit" startOffset="0">
+                            ZELLIGRID · WEB DEVELOPER · DIGITAL ARCHITECT ·
+                          </textpath>
+                        </text>
+                      </svg>
+                      <span class="zelli-badge__mark">Z</span>
+                      <span class="zelli-badge__place">HYDERABAD, IN</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-11 col-sm-9 about__title d-flex">
+              <h1 class="text--heading">
+                <span class="sr-only">BUILDING FOR THE WEB</span
+                ><span class="text--split" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>U</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>D</span></span
+                      ><span class="char--letter" style="--char-delay: 0.25s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.3s"><span>N</span></span
+                      ><span class="char--letter" style="--char-delay: 0.35s"><span>G</span></span></span
+                    ><br /></span
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>F</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>R</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>E</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>B</span></span></span
+                    ></span
+                  ></span
+                >
+              </h1>
+            </div>
+            <div class="about__point col-1 col-sm-3 d-flex align-items-end justify-content-center">
+              <svg width="123" height="241" viewBox="0 0 123 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M26.26 41.34C18.46 33.54 17.16 31.46 17.16 24.7C17.16 22.88 17.68 14.3 17.94 12.22C18.98 3.64 29.64 0 53.04 0C71.5 0 85.8 2.34 96.2 7.02C101.92 9.62 103.22 11.7 103.22 19.24C103.22 33.28 102.18 36.66 96.46 42.12C98.8 48.1 99.84 50.44 104.52 57.98C118.04 80.34 120.64 87.1 120.64 99.32C120.64 101.14 120.38 105.3 120.12 109.98C121.94 116.22 122.72 120.12 122.72 122.98C122.72 130.78 117.26 137.54 111.02 137.54C109.98 137.54 108.94 137.54 107.64 137.02C108.42 139.62 108.68 141.18 108.68 142.74C108.68 151.32 100.88 158.86 91.78 158.86C89.96 158.86 88.14 158.34 84.76 157.3C84.24 166.4 77.74 172.64 68.9 172.64C64.48 172.64 61.62 171.6 56.94 168.74C56.94 175.76 56.94 183.82 56.94 197.6C56.94 221.26 55.64 229.84 50.96 235.82C48.88 238.68 45.5 240.24 42.12 240.24C34.84 240.24 30.16 235.3 28.08 225.16C27.04 219.18 26.78 216.32 24.96 186.16C23.92 172.12 23.4 166.14 21.06 151.58C12.48 144.56 7.28 137.8 5.98 132.34C3.64 121.42 3.64 121.42 2.34 115.7C0.26 107.64 0 106.08 0 100.88C0 93.08 1.82 85.02 4.93999 78C8.32 69.94 16.38 56.94 21.06 51.48C25.22 46.8 26 45.24 26.26 41.34ZM49.66 176.54V165.62C45.76 165.36 43.42 164.84 38.48 162.76C37.96 162.5 35.1 160.68 29.12 157.04C30.42 167.96 32.76 196.56 34.06 218.4C34.84 227.76 37.7 232.96 42.38 232.96C44.46 232.96 47.06 230.1 47.84 227.24C49.14 222.82 49.66 210.08 49.66 176.54ZM104 71.24L96.98 59.28C90.74 46.8 90.74 46.8 88.14 42.12C83.2 38.74 80.6 37.7 74.1 36.66C70.2 35.88 64.48 35.36 61.62 35.36C58.24 35.36 46.02 35.88 42.9 36.14C39 36.66 37.96 36.92 33.54 39C33.8 40.04 34.06 40.82 34.06 41.08C34.06 44.98 32.24 48.88 27.56 54.86C21.32 62.92 13.26 76.7 10.14 84.24C8.32 89.44 7.02 95.42 7.02 100.62C7.02 107.38 12.22 128.44 15.34 134.42C18.46 140.4 25.74 146.9 37.7 153.66C43.42 157.04 46.54 158.34 48.62 158.34C51.48 158.34 53.56 155.22 53.56 150.54C53.56 143.52 49.92 137.54 42.9 132.34C40.04 130.52 40.04 130.52 38.22 125.58C36.14 119.86 36.14 119.86 35.36 117C41.6 111.8 46.54 106.34 52 97.5C56.68 90.74 58.24 84.24 58.24 73.32C58.24 72.54 57.98 69.68 57.46 65C57.46 64.74 57.46 64.22 57.46 63.96C57.46 61.88 58.5 60.58 60.32 60.58C63.18 60.58 65.26 65.26 65.26 71.5C65.26 75.92 63.7 86.84 62.66 90.74C61.62 94.12 60.84 95.42 54.86 106.86C57.2 107.38 57.98 107.64 59.8 108.68C60.84 100.36 65.52 95.42 72.54 95.42C73.58 95.42 74.88 95.68 76.96 95.94C76.96 88.4 82.68 83.2 91 83.2C98.02 83.2 105.3 88.4 114.14 99.58C113.36 90.22 110.24 81.64 104 71.24ZM58.5 160.42C62.66 164.06 65.78 165.62 68.9 165.62C73.84 165.62 78.26 160.94 78.26 155.74C78.26 153.92 77.48 151.58 75.14 144.56C73.32 139.88 73.32 139.88 69.94 133.12C64.22 122.46 62.92 120.38 60.84 118.3C57.98 115.18 54.86 113.36 52 113.36C48.36 113.36 43.94 118.04 43.94 121.68C43.94 123.76 44.72 124.8 48.1 127.14C56.42 133.12 60.58 141.18 60.58 151.32C60.58 154.44 60.58 154.44 58.5 160.42ZM73.84 102.18C69.94 102.18 66.56 105.82 66.56 109.98C66.56 112.58 67.08 114.14 70.2 119.08C72.02 122.2 79.3 136.5 81.12 140.4C83.98 146.38 83.98 146.38 85.8 148.2C88.14 150.28 90.48 151.32 92.3 151.32C94.64 151.32 98.02 149.24 99.58 147.16C100.36 145.86 100.88 144.56 100.88 142.74C100.88 138.32 97.76 131.3 91 119.6C83.46 106.86 78.78 102.18 73.84 102.18ZM90.22 90.48C87.1 90.48 84.5 93.34 84.5 96.98C84.5 98.54 85.02 99.58 87.1 101.66C89.7 104 92.56 108.16 95.94 113.62C102.96 125.32 102.96 125.58 105.3 127.92C107.12 129.74 108.68 130.52 109.98 130.52C113.36 130.52 115.96 126.88 115.96 121.94C115.96 115.44 112.06 107.9 104 99.06C99.06 93.86 93.86 90.48 90.22 90.48ZM28.08 32.5C28.6 32.5 29.38 32.24 30.16 31.98C36.92 29.12 44.46 28.08 56.94 28.08C68.9 28.08 79.3 29.64 85.8 32.5C90.22 34.32 91.52 34.84 92.3 34.84C94.64 34.84 95.42 31.72 95.42 19.76C95.42 14.82 94.64 13.78 89.44 11.7C79.04 8.06 69.94 6.76001 54.6 6.76001C42.12 6.76001 32.76 7.79999 28.6 9.36C25.48 10.66 24.7 12.48 24.7 17.94C24.7 18.46 24.7 18.72 24.7 19.24C24.7 20.54 24.7 21.84 24.7 23.14C24.44 24.7 24.44 25.48 24.44 26.52C24.44 29.38 26.26 32.5 28.08 32.5Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="col-5 col-sm-6 about__media d-flex justify-content-end">
+              <a
+                href="https://www.wolfmmafitness.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="about__media-wrap"
+                aria-label="Visit Wolf MMA Fitness"
+              >
+                <div
+                  class="webgl webgl--image"
+                  style="position: relative; overflow: hidden"
+                  data-tv-media=""
+                  data-type="image"
+                  data-intensity="0.7"
+                  data-scanline-spacing="2"
+                  data-scanline-speed="10"
+                >
+                  <img
+                    src="/assets/work/wolf-mma.jpg"
+                    alt="Wolf MMA Fitness website"
+                    loading="eager"
+                    style="display: block; width: 100%; height: auto; opacity: 0; pointer-events: none"
+                  />
+                  <canvas
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 1"
+                  ></canvas>
+                  <img
+                    src="/assets/work/wolf-mma.jpg"
+                    alt=""
+                    aria-hidden="true"
+                    loading="eager"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                      opacity: 0;
+                      pointer-events: none;
+                      z-index: -1;
+                    "
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-7 col-sm-6 about__subtitle">
+              <p class="h1 text--heading text--stroke text--flicker">
+                <span class="sr-only">BUILT TO LAST</span
+                ><span class="text--split text--split-horizontal" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>U</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>T</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>O</span></span></span
+                    ><br /></span
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>T</span></span></span
+                    ></span
+                  ></span
+                >
+              </p>
+              <span class="text--caption-lg"
+                ><span class="sr-only">[DESIGN THAT WORKS]</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>D</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>G</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>N</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>T</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>K</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>]</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+            </div>
+          </div>
+          <div class="row about__bio-row">
+            <div class="col-12">
+              <p class="about__bio">
+                Zelligrid is the freelance web studio of Adil Khan — a web developer and digital architect based in
+                Hyderabad. I design and build fast, expressive websites that help businesses look sharp online and turn
+                visitors into customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="work"
+        class="work work--single"
+        data-channels='[{"title":"Wolf MMA Fitness","url":"https://www.wolfmmafitness.com/","caption":"A bold, high-energy website for a fitness academy, built to turn visitors into members.","poster":"/assets/work/wolf-mma.jpg"}]'
+      >
+        <div class="col-12 work__title text-center d-flex">
+          <div class="work__title-inner d-inline-flex mx-auto flex-column">
+            <div class="work__title-text title--top">
+              <h1 class="text--heading">
+                <span class="sr-only">PORTFOLIO</span
+                ><span class="text--split" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>F</span></span
+                      ><span class="char--letter" style="--char-delay: 0.25s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.3s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.35s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.4s"><span>O</span></span></span
+                    ></span
+                  ></span
+                >
+              </h1>
+            </div>
+            <div class="work__title-subtitle">
+              <p class="text--caption-lg m-0">
+                <span class="sr-only">[FEATURED PROJECT]</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>F</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>U</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.12s"><span>D</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>J</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>C</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>]</span></span></span
+                    ></span
+                  ></span
+                >
+              </p>
+            </div>
+            <div class="work__title-text title--bottom">
+              <h1 class="text--heading">
+                <span class="sr-only">PORTFOLIO</span
+                ><span class="text--split" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15s"><span>T</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>F</span></span
+                      ><span class="char--letter" style="--char-delay: 0.25s"><span>O</span></span
+                      ><span class="char--letter" style="--char-delay: 0.3s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.35s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.4s"><span>O</span></span></span
+                    ></span
+                  ></span
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid work__tv-row">
+          <div class="row">
+            <div class="col-12 work__tv" data-channel-tv="">
+              <div class="work__set">
+                <h2 class="text--heading work__name" data-channel-name="">
+                  <span class="sr-only">Wolf MMA Fitness</span
+                  ><span class="text--split" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>W</span></span
+                        ><span class="char--letter" style="--char-delay: 0.05s"><span>o</span></span
+                        ><span class="char--letter" style="--char-delay: 0.1s"><span>l</span></span
+                        ><span class="char--letter" style="--char-delay: 0.15s"><span>f</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>M</span></span
+                        ><span class="char--letter" style="--char-delay: 0.05s"><span>M</span></span
+                        ><span class="char--letter" style="--char-delay: 0.1s"><span>A</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>F</span></span
+                        ><span class="char--letter" style="--char-delay: 0.05s"><span>i</span></span
+                        ><span class="char--letter" style="--char-delay: 0.1s"><span>t</span></span
+                        ><span class="char--letter" style="--char-delay: 0.15s"><span>n</span></span
+                        ><span class="char--letter" style="--char-delay: 0.2s"><span>e</span></span
+                        ><span class="char--letter" style="--char-delay: 0.25s"><span>s</span></span
+                        ><span class="char--letter" style="--char-delay: 0.3s"><span>s</span></span></span
+                      ></span
+                    ></span
+                  >
+                </h2>
+                <div
+                  class="work__screen"
+                  data-channel-screen=""
+                  data-cursor-hover=""
+                  tabindex="0"
+                  role="region"
+                  aria-label="Featured project: Wolf MMA Fitness. Select the screen to visit the live site."
+                >
+                  <img
+                    class="work__poster"
+                    data-channel-poster=""
+                    src="/assets/work/wolf-mma.jpg"
+                    alt="Wolf MMA Fitness website homepage"
+                  />
+
+                  <video
+                    aria-hidden="true"
+                    playsinline
+                    loop
+                    muted
+                    preload="none"
+                    data-channel-video=""
+                    class="work__video"
+                  >
+                    <source src="/assets/work/wolf-mma.mp4" type="video/mp4" /></video
+                  ><canvas class="work__canvas" data-channel-canvas="" aria-hidden="true"></canvas>
+                  <span class="text--caption work__osd" data-channel-number="" aria-hidden="true">CH 01</span>
+                </div>
+                <div class="work__bar">
+                  <div class="work__remote text--caption" role="group" aria-label="Channels">
+                    <button
+                      type="button"
+                      class="work__step"
+                      data-channel-prev=""
+                      data-cursor-hover=""
+                      aria-label="Previous channel"
+                    >
+                      ←
+                    </button>
+                    <div class="work__dial">
+                      <div class="work__dial-track" data-channel-dial="">
+                        <button
+                          type="button"
+                          class="work__key"
+                          data-channel-key="7"
+                          data-cursor-hover=""
+                          aria-label="Channel 8: Nice&Co"
+                          aria-pressed="false"
+                          aria-hidden="true"
+                          tabindex="-1"
+                        >
+                          08</button
+                        ><button
+                          type="button"
+                          class="work__key"
+                          data-channel-key="8"
+                          data-cursor-hover=""
+                          aria-label="Channel 9: Tierra Mia"
+                          aria-pressed="false"
+                        >
+                          09</button
+                        ><button
+                          type="button"
+                          class="work__key"
+                          data-channel-key="0"
+                          data-cursor-hover=""
+                          aria-label="Channel 1: Srut"
+                          aria-pressed="true"
+                        >
+                          01</button
+                        ><button
+                          type="button"
+                          class="work__key"
+                          data-channel-key="1"
+                          data-cursor-hover=""
+                          aria-label="Channel 2: New Century"
+                          aria-pressed="false"
+                        >
+                          02</button
+                        ><button
+                          type="button"
+                          class="work__key"
+                          data-channel-key="2"
+                          data-cursor-hover=""
+                          aria-label="Channel 3: Ollo Padel"
+                          aria-pressed="false"
+                          aria-hidden="true"
+                          tabindex="-1"
+                        >
+                          03
+                        </button>
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      class="work__step"
+                      data-channel-next=""
+                      data-cursor-hover=""
+                      aria-label="Next channel"
+                    >
+                      →
+                    </button>
+                  </div>
+                  <div class="work__info">
+                    <p class="text--caption-lower work__caption" data-channel-caption="">
+                      <span class="sr-only"
+                        >A bold, high-energy website for a fitness academy, built to turn visitors into members.</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>A</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>l</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>d</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>,</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>h</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>g</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>h</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>-</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>n</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.12s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.135s"><span>g</span></span
+                            ><span class="char--letter" style="--char-delay: 0.15s"><span>y</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>w</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>e</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>f</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>a</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>f</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>n</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>s</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>c</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>a</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>d</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>m</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>y</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>,</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>u</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>l</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>t</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>u</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>n</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>v</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>s</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>o</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>m</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>m</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>b</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>r</span></span
+                            ><span class="char--letter" style="--char-delay: 0.09s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.105s"><span>.</span></span></span
+                          ></span
+                        ></span
+                      >
+                    </p>
+                    <a
+                      class="text--caption work__visit"
+                      data-channel-visit=""
+                      data-cursor-hover=""
+                      href="https://www.wolfmmafitness.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Visit Wolf MMA Fitness (opens in a new tab)"
+                      ><span class="sr-only">Visit site ↗</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>V</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>t</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>s</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                            ><span class="char--space"><span> </span></span></span
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>↗</span></span></span
+                          ></span
+                        ></span
+                      ></a
+                    >
+                    <p class="text--caption work__meta">DESIGN &amp; DEVELOPMENT · RESPONSIVE BUILD</p>
+                  </div>
+                </div>
+                <p class="sr-only" aria-live="polite" data-channel-announce=""></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer" data-footer="">
+        <div class="container-fluid footer__status">
+          <div class="row">
+            <div class="col-12 footer__status-inner">
+              <div class="text--caption footer__available">
+                <span class="footer__dot"></span>
+                <span
+                  ><span class="sr-only">Available for work</span
+                  ><span class="text--split text--split-copy" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>A</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>v</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>a</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                        ><span class="char--letter" style="--char-delay: 0.06s"><span>l</span></span
+                        ><span class="char--letter" style="--char-delay: 0.075s"><span>a</span></span
+                        ><span class="char--letter" style="--char-delay: 0.09s"><span>b</span></span
+                        ><span class="char--letter" style="--char-delay: 0.105s"><span>l</span></span
+                        ><span class="char--letter" style="--char-delay: 0.12s"><span>e</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>f</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>w</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>k</span></span></span
+                      ></span
+                    ></span
+                  ></span
+                >
+              </div>
+              <div class="text--caption footer__local">
+                <span
+                  ><span class="sr-only">Hyderabad, India</span
+                  ><span class="text--split text--split-copy" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>y</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>d</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                        ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                        ><span class="char--letter" style="--char-delay: 0.075s"><span>a</span></span
+                        ><span class="char--letter" style="--char-delay: 0.09s"><span>b</span></span
+                        ><span class="char--letter" style="--char-delay: 0.105s"><span>a</span></span
+                        ><span class="char--letter" style="--char-delay: 0.12s"><span>d</span></span
+                        ><span class="char--letter" style="--char-delay: 0.135s"><span>,</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>I</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>d</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                        ><span class="char--letter" style="--char-delay: 0.06s"><span>a</span></span></span
+                      ></span
+                    ></span
+                  ></span
+                >
+                <span class="footer__divider"
+                  ><span class="sr-only">/</span
+                  ><span class="text--split text--split-copy" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>/</span></span></span
+                      ></span
+                    ></span
+                  ></span
+                >
+                <span class="text--split">
+                  <span class="char--letter" style="--char-delay: 0.2s">
+                    <span><time data-footer-clock="">--:--:-- ---</time></span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid footer__main">
+          <div class="row">
+            <div class="col-12 col-lg-6 footer__pitch">
+              <h2 class="text--heading footer__title">
+                <span class="sr-only">Let's build stuff</span
+                ><span class="text--split" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15000000000000002s"><span>'</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>s</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>b</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>u</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>i</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15000000000000002s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>d</span></span></span
+                    ><br /></span
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>s</span></span
+                      ><span class="char--letter" style="--char-delay: 0.05s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.1s"><span>u</span></span
+                      ><span class="char--letter" style="--char-delay: 0.15000000000000002s"><span>f</span></span
+                      ><span class="char--letter" style="--char-delay: 0.2s"><span>f</span></span></span
+                    ></span
+                  ></span
+                >
+              </h2>
+              <span class="text--caption-lg footer__doing"
+                ><span class="sr-only">[DESIGN. BUILD. LAUNCH.]</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>D</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>G</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>N</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>.</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>U</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>D</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>.</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>A</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>U</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>N</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>C</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>.</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>]</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+            </div>
+            <div class="col-6 col-lg-3 text--caption footer__col">
+              <span class="footer__label"
+                ><span class="sr-only">Elsewhere</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>w</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>h</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>r</span></span
+                      ><span class="char--letter" style="--char-delay: 0.12s"><span>e</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+              <ul>
+                <li>
+                  <span
+                    class="footer__link footer__link--pending"
+                    aria-disabled="true"
+                    title="Add your Instagram URL in index.html"
+                  >
+                    <span class="sr-only">Instagram — link coming soon</span>
+                    <span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>I</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>s</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>g</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.12s"><span>m</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>s</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>n</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    >
+                  </span>
+                </li>
+                <li>
+                  <span
+                    class="footer__link footer__link--pending"
+                    aria-disabled="true"
+                    title="Add your LinkedIn URL in index.html"
+                  >
+                    <span class="sr-only">LinkedIn — link coming soon</span>
+                    <span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>L</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>n</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>k</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>d</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>I</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>n</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>s</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>n</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    >
+                  </span>
+                </li>
+                <li>
+                  <span
+                    class="footer__link footer__link--pending"
+                    aria-disabled="true"
+                    title="Add your GitHub URL in index.html"
+                  >
+                    <span class="sr-only">GitHub — link coming soon</span>
+                    <span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>G</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>H</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>u</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>b</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>s</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>n</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    >
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3 text--caption footer__col">
+              <span class="footer__label"
+                ><span class="sr-only">Still Bored?</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>S</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>i</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>l</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>r</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>d</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>?</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+              <button type="button" class="footer__pong" data-pong-open="" data-cursor-hover="">
+                <span class="sr-only">Play Pong</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>a</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>y</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>n</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>g</span></span></span
+                    ></span
+                  ></span
+                >
+                <span class="button-fill button-fill--from-right" aria-hidden="true"
+                  ><span class="sr-only">Play Pong</span
+                  ><span class="text--split text--split-copy" aria-hidden="true"
+                    ><span class="line"
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>l</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>a</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>y</span></span
+                        ><span class="char--space"><span> </span></span></span
+                      ><span class="word"
+                        ><span class="char--letter" style="--char-delay: 0s"><span>P</span></span
+                        ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                        ><span class="char--letter" style="--char-delay: 0.03s"><span>n</span></span
+                        ><span class="char--letter" style="--char-delay: 0.045s"><span>g</span></span></span
+                      ></span
+                    ></span
+                  ></span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid footer__contact">
+          <div class="row">
+            <div class="col-12 d-flex">
+              <a class="text--caption footer__cta" href="mailto:zelligrid1@gmail.com" data-cursor-hover="">
+                <span class="footer__cta-layer">
+                  <span class="footer__cta-label"
+                    ><span class="sr-only">[Start a project]</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>S</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>t</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>a</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>p</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>j</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>c</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                  <span class="footer__cta-email"
+                    ><span class="sr-only">zelligrid1@gmail.com ↗</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>z</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>g</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.12s"><span>d</span></span
+                          ><span class="char--letter" style="--char-delay: 0.135s"><span>1</span></span
+                          ><span class="char--letter" style="--char-delay: 0.15s"><span>@</span></span
+                          ><span class="char--letter" style="--char-delay: 0.165s"><span>g</span></span
+                          ><span class="char--letter" style="--char-delay: 0.18s"><span>m</span></span
+                          ><span class="char--letter" style="--char-delay: 0.195s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.21s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.225s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.24s"><span>.</span></span
+                          ><span class="char--letter" style="--char-delay: 0.255s"><span>c</span></span
+                          ><span class="char--letter" style="--char-delay: 0.27s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.285s"><span>m</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>↗</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                </span>
+                <span class="footer__cta-layer footer__cta-layer--fill" aria-hidden="true">
+                  <span class="footer__cta-label"
+                    ><span class="sr-only">[Start a project]</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>[</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>S</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>t</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>a</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>p</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>j</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>c</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>t</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>]</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                  <span class="footer__cta-email"
+                    ><span class="sr-only">zelligrid1@gmail.com ↗</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>z</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>g</span></span
+                          ><span class="char--letter" style="--char-delay: 0.09s"><span>r</span></span
+                          ><span class="char--letter" style="--char-delay: 0.105s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.12s"><span>d</span></span
+                          ><span class="char--letter" style="--char-delay: 0.135s"><span>1</span></span
+                          ><span class="char--letter" style="--char-delay: 0.15s"><span>@</span></span
+                          ><span class="char--letter" style="--char-delay: 0.165s"><span>g</span></span
+                          ><span class="char--letter" style="--char-delay: 0.18s"><span>m</span></span
+                          ><span class="char--letter" style="--char-delay: 0.195s"><span>a</span></span
+                          ><span class="char--letter" style="--char-delay: 0.21s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.225s"><span>l</span></span
+                          ><span class="char--letter" style="--char-delay: 0.24s"><span>.</span></span
+                          ><span class="char--letter" style="--char-delay: 0.255s"><span>c</span></span
+                          ><span class="char--letter" style="--char-delay: 0.27s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.285s"><span>m</span></span
+                          ><span class="char--space"><span> </span></span></span
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>↗</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                </span>
+              </a>
+              <button type="button" class="text--caption footer__copy" data-footer-copy="" data-cursor-hover="">
+                <span class="sr-only" aria-live="polite" data-footer-copy-status="">Copy email address</span>
+                <span class="footer__swap" aria-hidden="true">
+                  <span class="footer__swap-item"
+                    ><span class="sr-only">Copy</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>C</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>p</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>y</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                  <span class="footer__swap-item"
+                    ><span class="sr-only">Copied</span
+                    ><span class="text--split text--split-copy" aria-hidden="true"
+                      ><span class="line"
+                        ><span class="word"
+                          ><span class="char--letter" style="--char-delay: 0s"><span>C</span></span
+                          ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                          ><span class="char--letter" style="--char-delay: 0.03s"><span>p</span></span
+                          ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                          ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                          ><span class="char--letter" style="--char-delay: 0.075s"><span>d</span></span></span
+                        ></span
+                      ></span
+                    ></span
+                  >
+                </span>
+                <span class="button-fill" aria-hidden="true">
+                  <span class="footer__swap">
+                    <span class="footer__swap-item"
+                      ><span class="sr-only">Copy</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>C</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>p</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>y</span></span></span
+                          ></span
+                        ></span
+                      ></span
+                    >
+                    <span class="footer__swap-item"
+                      ><span class="sr-only">Copied</span
+                      ><span class="text--split text--split-copy" aria-hidden="true"
+                        ><span class="line"
+                          ><span class="word"
+                            ><span class="char--letter" style="--char-delay: 0s"><span>C</span></span
+                            ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                            ><span class="char--letter" style="--char-delay: 0.03s"><span>p</span></span
+                            ><span class="char--letter" style="--char-delay: 0.045s"><span>i</span></span
+                            ><span class="char--letter" style="--char-delay: 0.06s"><span>e</span></span
+                            ><span class="char--letter" style="--char-delay: 0.075s"><span>d</span></span></span
+                          ></span
+                        ></span
+                      ></span
+                    >
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid footer__bar">
+          <div class="row">
+            <div class="col-12 text--caption footer__bar-inner">
+              <span class="footer__copyright"
+                ><span class="sr-only">© 2026 ZELLIGRID</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>©</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>2</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>0</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>2</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>6</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>Z</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>E</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>L</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>G</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>R</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>I</span></span
+                      ><span class="char--letter" style="--char-delay: 0.12s"><span>D</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+              <span class="footer__built"
+                ><span class="sr-only">Hand-built in Hyderabad.</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>a</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>n</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>d</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>-</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>b</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>u</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>i</span></span
+                      ><span class="char--letter" style="--char-delay: 0.12s"><span>l</span></span
+                      ><span class="char--letter" style="--char-delay: 0.135s"><span>t</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>i</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>n</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>H</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>y</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>d</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>e</span></span
+                      ><span class="char--letter" style="--char-delay: 0.06s"><span>r</span></span
+                      ><span class="char--letter" style="--char-delay: 0.075s"><span>a</span></span
+                      ><span class="char--letter" style="--char-delay: 0.09s"><span>b</span></span
+                      ><span class="char--letter" style="--char-delay: 0.105s"><span>a</span></span
+                      ><span class="char--letter" style="--char-delay: 0.12s"><span>d</span></span
+                      ><span class="char--letter" style="--char-delay: 0.135s"><span>.</span></span></span
+                    ></span
+                  ></span
+                ></span
+              >
+              <button type="button" class="footer__link footer__top" data-footer-top="" data-cursor-hover="">
+                <span class="sr-only">Back to top ↑</span
+                ><span class="text--split text--split-copy" aria-hidden="true"
+                  ><span class="line"
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>B</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>a</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>c</span></span
+                      ><span class="char--letter" style="--char-delay: 0.045s"><span>k</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>t</span></span
+                      ><span class="char--letter" style="--char-delay: 0.015s"><span>o</span></span
+                      ><span class="char--letter" style="--char-delay: 0.03s"><span>p</span></span
+                      ><span class="char--space"><span> </span></span></span
+                    ><span class="word"
+                      ><span class="char--letter" style="--char-delay: 0s"><span>↑</span></span></span
+                    ></span
+                  ></span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__mark" data-footer-mark="" aria-hidden="true">
+          <!-- prettier-ignore -->
+        <div class="text--heading-full footer__mark-word"> <span class="footer__mark-cursor" data-footer-mark-cursor=""></span> <span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="Z"> Z </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="E"> E </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="L"> L </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="L"> L </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="I"> I </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="G"> G </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="R"> R </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="I"> I </span> </span><span class="footer__mark-char" data-footer-mark-char=""> <span class="footer__mark-roll" data-char="D"> D </span> </span> </div>
+        </div>
+      </section>
+    </footer>
+    <template id="pong-template"
+      ><section class="pong section--dark">
+        <div class="pong__wrapper">
+          <div class="pong__score">
+            <div class="pong__score-player">
+              <span class="pong__score-label">YOU</span><span class="pong__score-value">0</span>
+            </div>
+            <div class="pong__score-divider">:</div>
+            <div class="pong__score-player">
+              <span class="pong__score-label">CPU</span><span class="pong__score-value">0</span>
+            </div>
+          </div>
+          <div class="pong__countdown">READY?</div>
+          <div class="pong__gameover">
+            <h2 class="pong__gameover-title"></h2>
+            <p class="pong__gameover-subtitle">Click to play again</p>
+          </div>
+          <canvas width="100%" height="100%"></canvas>
+        </div>
+        <div class="pong__rotate" aria-live="polite">
+          <span class="pong__rotate-phone" aria-hidden="true"></span
+          ><span class="pong__rotate-label text--caption">[Turn your phone]</span>
+        </div>
+        <button class="pong__close text--caption" aria-label="Close Pong">Close [ESC]</button>
+      </section></template
+    >
+    <script type="module" src="/assets/js/main.js"></script>
+  </body>
+</html>

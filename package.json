@@ -1,0 +1,11 @@
+{
+  "name": "zelligrid-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZELLIGRID — portfolio of Adil Khan, web developer and digital architect",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  }
+}
